@@ -20,7 +20,6 @@ int main() {
     int inputNumber;
     std::cin >> inputNumber;
 
-
     int outputNumber = 0;
     int i = getNumberOfDigits(inputNumber);
     while (i > 0) {
