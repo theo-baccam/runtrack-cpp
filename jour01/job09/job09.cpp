@@ -14,10 +14,10 @@ int getSmallestIntegerInArray(int integerArray[], int arraySize) {
 
 int main() {
     int aSize = 6;
-    int a[6] = {92, 17412, 74, 1, 83, 2};
+    int a[aSize] = {92, 17412, 74, 1, 83, 2};
 
     int bSize = 4;
-    int b[4] = {182, -1932, 852, 123};
+    int b[bSize] = {182, -1932, 852, 123};
 
     std::cout << "a: " << getSmallestIntegerInArray(a, aSize) << '\n';
     std::cout << "b: " << getSmallestIntegerInArray(b, bSize) << '\n';
