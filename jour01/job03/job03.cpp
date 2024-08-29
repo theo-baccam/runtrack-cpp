@@ -13,7 +13,7 @@ int main() {
         a += b;
     };
 
-    std::cout << "La moyenne de ces nombres est " << a / 5 << '\n';
+    std::cout << "La moyenne de ces nombres est " << (double) a / 5 << '\n';
 
     return 0;
 }
