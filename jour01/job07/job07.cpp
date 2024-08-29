@@ -15,7 +15,7 @@ int getNumberOfDigits(int number) {
 
 
 int main() {
-    std::cout << "Veuillez donner un nombre entier positif: ";
+    std::cout << "Veuillez donner un nombre entier: ";
 
     int inputNumber;
     std::cin >> inputNumber;
