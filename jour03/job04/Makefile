@@ -1,0 +1,2 @@
+all: $(wildcard ./*.cpp)
+	g++ $^
